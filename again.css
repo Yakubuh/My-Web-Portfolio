@@ -132,7 +132,7 @@ padding-top: 50px;
   
   @media screen and (max-width: 600px) {
     .topnav.responsive {
-        position: relative;
+        position: fixed;
     
     }
     .topnav{
