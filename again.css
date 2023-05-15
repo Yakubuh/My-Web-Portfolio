@@ -224,6 +224,11 @@ textarea{
 }
   
   @media screen and (max-width: 600px) {
+       body{
+    padding-left: 10px;
+    padding-right: 15px;
+   }
+      
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -232,10 +237,7 @@ textarea{
   }
   
   @media screen and (max-width: 600px) {
-   body{
-    padding-left: 10px;
-    padding-right: 10px;
-   }
+  
    
     .topnav.responsive {
         position: fixed;
